@@ -1,0 +1,84 @@
+h1{
+	font-family: ‘Arial Black’, Gadget, sans-serif;
+	font-size: 72px;
+	color: rgb(128, 128, 128);
+}
+div{
+	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 30px;
+	color: black;
+	
+}
+table{
+	font-size: 20px;
+	border-collapse:collapse;
+
+	
+	
+}
+table, th, td{
+	border-bottom:1px solid grey;
+}
+body{
+	background-image: url('field.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+#deleteButton{
+	position: fixed;
+	transition: .5s ease;
+	left: 85%;
+	top: 160px;
+	width: 10%;
+	height: 5%;
+	background-color: rgb(111, 142, 243);
+	font-size: 12px;
+}
+#deleteButton:hover{
+	background-color: rgb(235, 38, 38);
+}
+#addButton{
+	position: fixed;
+	transition: .5s ease;
+	left: 85%;
+	top: 90px;
+	width: 10%;
+	height: 10%;
+	background-color: rgb(111, 142, 243);
+	
+}
+#addButton:hover{
+	background-color: rgb(126, 246, 158);
+	font-size: 28px;
+}
+h2{
+	font-family: ‘Arial Black’, Gadget, sans-serif;
+	font-size: 45px;
+	color: rgb(128, 128, 128);
+}
+.text-center {
+	color: rgb(128, 128, 128);
+}
+#enterButton{
+	width:100%;
+
+	padding: 10px 24px;
+	font-size: 28px;
+
+}
+#enterButton:hover{
+	background-color: rgb(126, 246, 158);
+}
+#yesButton:hover{
+	background-color: rgb(126, 246, 158);
+}
+#noButton:hover{
+	background-color: rgb(235, 38, 38);
+}
+li{
+	font-size:20px;
+}
+#checkbox {
+	margin-right: 10px;
+}
